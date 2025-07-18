@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  padding: 12px 16px;    
+  position: fixed;
+  background: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .61);
+  z-index: 9999;
+}
+
+header a {
+  margin-right: 3rem;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem; /* mínimo 24px */
+}
+
+.home-bttn {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem; /* mínimo 24px */
+}
+
+.dropdown-temas {
+  margin-right: 2rem;
+  padding: 6px 10px;
+  font-size: 1.5rem; /* mínimo 24px */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.align1 {
+  text-align: left;
+  font-size: 1.125rem; /* 18px para texto corrido */
+  line-height: 1.5;
+  margin: 1.25rem;
+}
+
+/*Texto das caixinhas e definição do argumento*/
+p, a {
+  color: black;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.5;
+}
+/*Imagem*/
+.align2 img {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+/*Caixas com os textos de cada argumento*/
+details {
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 0 1rem 0.5rem 1rem;
+  padding: 1rem;
+}
+
+/*Títulos*/
+h1 {
+  margin: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Barriecito", system-ui;
+}
+
+/*Para não deixar o título embaixo do cabeçalho*/
+main {
+  padding-top: calc(90px + 1rem);
+}
+
+footer{
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+     <img src="./img/home_bttn.png"
+     onclick="window.location.href='home.html'"
+     class="home-bttn"
+     alt="Home">
+        <a href="javascript:history.back()">Voltar</a>
+        <select class="dropdown-temas" id="menu" onchange="window.location.href=this.value">
+               <option value="">Escolha um tema</option>
+                <option value="./index.html">Educação</option>
+                <option value="./tema_ciberseguranca.html">Ciberseguraça</option>
+                <option value="./tema_cidadania.html">Cidadania e Civismo</option>
+                <option value="./tema_educacaoAlimentar.html">Educação Alimentar</option>
+                <option value="./tema_transito.html">Educação no Transito</option>
+                <option value="./tema_etica.html">Ética e Cidadania</option>
+                <option value="./tema_meioAmbiente.html">Meio Ambiente 1</option>
+                <option value="./tema_plastico.html">Meio Ambiente 2</option>
+                <option value="./tema_pluralidade.html">Pluraridade Cultural</option>
+                <option value="./tema_saude.html">Saúde</option>
+        </select>
+    </header>
+    <main>
+    <h1 class="barriecito-regular">Temas de Redação</h1>
+     <div class="galeria">
+    <a href="./index.html"><img src="./img/tema_educacao.png" alt="Tema 1"></a>
+    <a href="./tema_ciberseguranca.html"><img src="./img/tema_ciberseguranca.png" alt="Tema 2"></a>
+    <a href="./tema_cidadania.html"><img src="./img/tema_cidadania.png" alt="Tema 3"></a>
+    <a href="./tema_educacaoAlimentar.html"><img src="./img/educacao_alimentar.png" alt="Tema 4"></a>
+    <a href="./tema_educacaoTransito.html"><img src="./img/tema_transito.png" alt="Tema 5"></a>
+    <a href="./tema_etica.html"><img src="./img/tema_etica.png" alt="Tema 6"></a>
+    <a href="./tema_meioAmbiente.html"><img src="./img/tema_meioambiente.png" alt="Tema 7"></a>
+    <a href="./tema_plastico.html"><img src="./img/tema_plastico.png" alt="Tema 8"></a>
+    <a href="./tema_pluralidade.html"><img src="./img/tema_pluralidade.png" alt="Tema 9"></a>
+    <a href="./tema_saude.html"><img src="./img/tema_saude.png" alt="Tema 10"></a>
+  </div>
+</main>
+    <footer><br><br> by Gabi e Pietro &copy; &trade; <br></footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/*Arrumando o código:*/
+
+body{
+    margin: 0;
+    padding: 0;
+     /*deixar a MARGIN e PADDING 0 possibilitará o Cabeçalho preencher todo o Header, pois iniciará em 0 e terminará em 0*/
+
+    background-color: rgb(255, 255, 255); 
+    /*Cor de fundo da página*/
+  }
+  
+header{
+  display: flex;
+  
+  justify-content: flex-start;
+    /*O justify-content modifica como os itens dentro do display serão organizados horizontalmente: se irão para esquerda, no centro...*/
+  align-items:center;
+  /*Enquanto o justify-content faz os itens se alinharem horizontalmente, o align-items permite eles se organizarem verticalmente.*/
+
+  height:64px;
+  /*Define o tamanho vertical*/
+  width:100%;
+  /*Define a largura de um objeto horizontalmente.*/
+
+  padding: 12px 16px;    
+  /*Distância dos itens internos para a borda do Header*/
+
+  position: fixed;
+  
+  background:#f8f9fa;
+  /*A diferença entre background e background-color é que background-color é como se fosse uma especificação do background. Ou seja: o background pode mexer com outras coisas além da cor, como imagem, repetição...*/
+
+  border-bottom:1px solid #ccc;
+  /*Faz apenas uma borda no inferior*/
+
+  box-shadow:0 5px 10px rgba(0,0,0,.61);
+  /*Faz uma sombra na borda. A variável de pxs declara o degradê.*/
+
+  z-index: 9999;
+}
+
+header a{
+  margin-right: 3rem;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;    /* só se quiser */
+}
+
+h1{
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/*Caixinha com as opções de qual site ir*/
+.dropdown-temas {
+  margin-right: 2rem;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.home-bttn {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+main{
+  padding-top:calc(64px + 1rem);
+}
+
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap; /* Quebra para a linha de baixo */
+  justify-content: center;
+  gap: 1rem; /* Espaço entre as imagens */
+}
+
+.galeria a {
+  display: block;
+  width: 18%; /* Aproximadamente 5 por linha */
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  object-fit: cover;      /* corta as bordas, sem distorcer */
+  aspect-ratio: 3 / 4;  
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .galeria a{
+    width: 45%; 
+    }
+}
