@@ -49,7 +49,7 @@ header a {
 
 /*Texto das caixinhas e definição do argumento*/
 p, a {
-  color: black;
+  color: pink;
   font-size: 1.125rem; /* 18px */
   line-height: 1.5;
 }
@@ -78,6 +78,7 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   font-family: "Barriecito", system-ui;
+  color: pink;
 }
 
 /*Para não deixar o título embaixo do cabeçalho*/
@@ -87,4 +88,8 @@ main {
 
 footer{
     text-align: center;
+}
+
+.tracking-in-expand, .main-text{
+  color: pink;
 }

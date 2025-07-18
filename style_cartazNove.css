@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: beige;
 }
 
 header {
@@ -49,7 +50,7 @@ header a {
 
 /*Texto das caixinhas e definição do argumento*/
 p, a {
-  color: black;
+  color: rgb(118, 141, 220);
   font-size: 1.125rem; /* 18px */
   line-height: 1.5;
 }
@@ -77,6 +78,7 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   font-family: "Barriecito", system-ui;
+  color: rgb(118, 141, 220);
 }
 
 /*Para não deixar o título embaixo do cabeçalho*/
@@ -88,3 +90,6 @@ footer{
     text-align: center;
 }
 
+.tracking-in-expand, .main-text{
+  color: rgb(118, 141, 220);
+}

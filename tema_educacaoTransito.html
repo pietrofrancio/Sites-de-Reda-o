@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style_cartazes.css">
+    <link rel="stylesheet" href="./style_cartazCinco.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
@@ -33,7 +33,20 @@
     <main>
         <h1>Educação no Trânsito</h1>
 <div class="align2">
-    <img src="./img/tema_transito.png" alt="">
+    <img src="img/tema_transito.png" class="fadein" alt="Imagem">
+
+<style>
+  .fadein {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
     <div class="align1">
         <p>A educação no trânsito é um elemento chave para a construção de uma mobilidade mais segura, responsável e humana. Em um cenário onde acidentes e imprudências ainda causam milhares de vítimas todos os anos, conscientizar condutores, pedestres e ciclistas sobre seus deveres e direitos é essencial para salvar vidas e promover a convivência harmoniosa nas vias públicas.
         <br><br>

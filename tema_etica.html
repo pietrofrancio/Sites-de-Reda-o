@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style_cartazes.css">
+    <link rel="stylesheet" href="./style_cartazSeis.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
@@ -33,7 +33,20 @@
     <main>
         <h1>Ética e Cidadania no ENEM</h1>
 <div class="align2">
-    <img src="./img/tema_etica.png" alt="">
+ <img src="img/tema_etica.png" class="fadein" alt="Imagem">
+
+<style>
+  .fadein {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
     <div class="align1">
         <p>A ética enfrenta questões cada vez mais desafiadoras devido às constantes transformações na tecnologia, cultura e sociedade. Esse cenário pede novas perspectivas e ajustes para assegurar equidade e harmonia no mundo de hoje.</p>
        </div>
